@@ -1,0 +1,88 @@
+/* Cores da loja */
+:root
+{
+    --roxo: #5835b9;
+    --fundo: rgb(34, 31, 41);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--fundo);
+}
+
+#img-logo
+{
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.formulario
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formulario form, 
+.container-home
+{    
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #211e29;
+    border-radius: 5%;
+    background-color: white;
+    padding: 20px 40px;    
+}
+
+.login-title
+{
+    margin: 30px 0;
+    color: var(--roxo);
+}
+
+.input-group
+{
+    margin-top: 25px!important;
+}
+
+.input-group i
+{
+    color: var(--roxo);
+}
+
+.entrar{
+    border-radius: 10px;
+    border: solid 1px var(--roxo);
+    padding: 8px 40px;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    background-color: var(--roxo);
+    color: white;
+    cursor: pointer;
+}
+
+.cadastro a
+{
+    text-decoration: underline!important;
+    color: var(--roxo)!important;
+    cursor: pointer;
+}
+
+#senha
+{
+    position: relative;
+    left: 215px;
+    bottom: 69px;
+    color: var(--roxo);
+    cursor:pointer;
+}
