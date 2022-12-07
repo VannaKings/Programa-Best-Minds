@@ -25,7 +25,7 @@
     <section class="formulario">
         <!-- Login -->
         <div class="logo">
-            <img src="/OliveiraTrade/imgs/logo.png" alt="" id="img-logo">
+            <img src="/Programa-Best-Minds/imgs/logo.png" alt="" id="img-logo">
         </div>
 
         <div class='container-home'>            
@@ -34,7 +34,7 @@
             <p>Se você chegou até aqui significa que deu tudo certo, muito obrigada por ter testado esse projeto :)</p>
 
             <div class="cadastro">
-                <p>Deseja encerrar sessão? <a href='/OliveiraTrade/logout.php'>Saia por aqui</a></p>
+                <p>Deseja encerrar sessão? <a href='/Programa-Best-Minds/logout.php'>Saia por aqui</a></p>
             </div>
         </div>
        

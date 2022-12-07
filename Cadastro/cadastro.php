@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="/OliveiraTrade/CSS/login.css">    
+    <link rel="stylesheet" href="/Programa-Best-Minds/CSS/login.css">    
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/0169495cc4.js" crossorigin="anonymous"></script>
     <!-- Font Family -->
@@ -28,7 +28,7 @@
     <section class="formulario">
         <!-- Login -->
         <div class="logo">
-            <img src="/OliveiraTrade/imgs/logo.png" alt="" id="img-logo">
+            <img src="/Programa-Best-Minds/imgs/logo.png" alt="" id="img-logo">
         </div>
 
         <form action="insert.php" method="POST">            
@@ -73,7 +73,7 @@
 
             <!-- Redirecionando o usuário ao login caso já possua -->
             <div class="cadastro">
-                <p>Já tem cadastro? <a href='/OliveiraTrade/Login/login.php'>Faça login</a></p>
+                <p>Já tem cadastro? <a href='/Programa-Best-Minds/Login/login.php'>Faça login</a></p>
             </div>
         </form>
        

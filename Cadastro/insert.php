@@ -23,17 +23,17 @@ if($isInputEmpty){
     {
         $cadastrado = true;
         //Caso obtenha sucesso o usuário é redirecionado para tela de login com um aviso de sucesso ao cadastrar
-        header("Location: /OliveiraTrade/Login/login.php?cadastrado=$cadastrado");
+        header("Location: /Programa-Best-Minds/Login/login.php?cadastrado=$cadastrado");
     }
     //Caso não execute o comando ou os campos estejam vazios vai para página de cadastro novamente com um alerta de erro
     else
     {
         $cadastrado = false;
-        header("Location: /OliveiraTrade/Cadastro/cadastro.php?cadastrado=$cadastrado");
+        header("Location: /Programa-Best-Minds/Cadastro/cadastro.php?cadastrado=$cadastrado");
     }
 } 
 else{
     $cadastrado = false;
-    header("Location: /OliveiraTrade/Cadastro/cadastro.php?cadastrado=$cadastrado");
+    header("Location: /Programa-Best-Minds/Cadastro/cadastro.php?cadastrado=$cadastrado");
 }
 

@@ -22,10 +22,10 @@ if(isset($linha) && $linha){
 
     $_SESSION["logado"] = true;
     $_SESSION["nome"] = $userNome;       
-    header("Location: /OliveiraTrade/bem-vindo.php");
+    header("Location: /Programa-Best-Minds/bem-vindo.php");
 }
 else
 {
     $acesso = false;
-    header("Location: /OliveiraTrade/Login/login.php?acesso=$acesso");
+    header("Location: /Programa-Best-Minds/Login/login.php?acesso=$acesso");
 }
